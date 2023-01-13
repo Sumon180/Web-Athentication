@@ -18,7 +18,7 @@ const connectDB = async () => {
   }
 };
 
-const PORT = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 const app = express();
 
 app.use(cors());
@@ -66,7 +66,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(PORT, async () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
+app.listen(port, async () => {
+  console.log(`Server is running at http://localhost:${port}`);
   await connectDB();
 });
