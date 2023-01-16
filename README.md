@@ -1,5 +1,5 @@
 # Web-Athentication
-MongoDB, Express, Ejs  
+MongoDB, Express,Ejs  
 npm install
 server start: npm start  
 frontend start: npm run dev  
